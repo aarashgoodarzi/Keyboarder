@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "Keyboarder"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Handy Keyboard handling in swift"
   spec.description  = "Keyboard handling with many features by just a line of code!"
   spec.homepage     = "https://github.com/aarashgoodarzi/Keyboarder"
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Arash Goodarzi" => "aarash.goodarzi@gmail.com" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/aarashgoodarzi/Keyboarder.git", :tag => "#{spec.version}" }
-  spec.source_files = "Keyboarder/Source/*.swift"
+  spec.source_files = "Keyboarder/Source/*.{swift}"
   #spec.public_header_files = "Keyboarder/*.h"
   #spec.resource  = "icon.png"
   #spec.resources = "Resources/*.png"
