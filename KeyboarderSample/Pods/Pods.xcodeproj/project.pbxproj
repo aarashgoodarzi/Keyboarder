@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C39CCF257D159E782F859F0EE621BC /* Keyboarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13DA9C606FF5128C242F375D881B521 /* Keyboarder.swift */; };
+		08F85F062A3F443DD5ACF72F1D6EEE05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		0BA7877AD73FC533771E689774B347CE /* KAnimationsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89391838E03ABC7AB560CA17FB01DA88 /* KAnimationsExt.swift */; };
+		157C21B12F505688435D967472DC009C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D97CDA32233365124105654E39E51 /* Extensions.swift */; };
+		192BAD4906FC72ECDBBF9D4557F3EC46 /* Keyboarder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A00AF1C3DA3E5F4053A4F7D74BED8D4D /* Keyboarder-dummy.m */; };
+		4E53CB03A63742888593D255D8E06581 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		5BAE09CC682E2187FE904ADBD98BE3E4 /* KeyboarderExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDACFE75BC3BFA4E152BF55FF1707702 /* KeyboarderExt.swift */; };
+		5C5E93E82BE35CBC7D94463319DD39C5 /* Keyboarder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAFB8745A43230E79634C3B2ADDDFE6 /* Keyboarder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72352C54209ACF6AF80359CD6AF48AB5 /* KNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FF134BFF654F9D8C602C30BB351AF7 /* KNavigator.swift */; };
+		798B25EA1C65B903C1C2A60AEE0BA71D /* KSwizzlings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6FEC3FC05CB273A35E382873DF5F06 /* KSwizzlings.swift */; };
+		98D51EC0DEDFC55FF76C65847BC5FDAC /* Pods-KeyboarderSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E121B0513ADE086A28BAF29B52C256 /* Pods-KeyboarderSample-dummy.m */; };
+		98EAA67AECEB28530694F56E3C9222E6 /* KTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E1E3BED5D75FDE2047DA5F21158A5 /* KTextInput.swift */; };
+		A7A604A5AD6EC8758C09D355E94E9F6C /* KToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE91D504FFCDA31500152F98B3B0AB9 /* KToolbar.swift */; };
+		A99BE884B114DABB5D535375D4F5E35F /* KBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165BBEB9CE68C0A04BE8A98C0796A78E /* KBarButton.swift */; };
+		BB82D69349BABF2FA0B79C295AC9CB42 /* Pods-KeyboarderSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBAE021F9DD32B4AC59634365ADE0A12 /* Pods-KeyboarderSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8407BF36EF5BA9E5B6E7ECE77C53E9B /* KScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C0132773B4CA16BF6F8A5DC61E6C64 /* KScroller.swift */; };
+		DB7FE317FDBBA3621A0E67FAEDC986BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		DF004C7F89CAD3EED9D3000C6DAF584F /* KResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC208CCD838F8C2C8349050A604D8B /* KResources.swift */; };
+		E5558C2CE7BE1EDA12D52008D67F5436 /* KCalulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D1C0BF396617FD00889C3CF37698F /* KCalulator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDD4D776C09CB1B5757A081A5395C037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B4043CCC09C427C308ED8555C964DB8;
+			remoteInfo = Keyboarder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D35BE27E36AE14A38FD73A36264A04 /* Pods-KeyboarderSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboarderSample-frameworks.sh"; sourceTree = "<group>"; };
+		0441DFB9EAD5C7E69BE59FCC570456D5 /* Pods-KeyboarderSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboarderSample.release.xcconfig"; sourceTree = "<group>"; };
+		06A0DB2DCC96BDE967D3CD6457F09B49 /* Keyboarder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Keyboarder-Info.plist"; sourceTree = "<group>"; };
+		0CAFB8745A43230E79634C3B2ADDDFE6 /* Keyboarder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keyboarder-umbrella.h"; sourceTree = "<group>"; };
+		0D6FEC07F80DAB80A17A432B259979BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		13E121B0513ADE086A28BAF29B52C256 /* Pods-KeyboarderSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyboarderSample-dummy.m"; sourceTree = "<group>"; };
+		1584B67D6BA70D9A5A3FEF5E43BD9147 /* Pods-KeyboarderSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyboarderSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		165BBEB9CE68C0A04BE8A98C0796A78E /* KBarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KBarButton.swift; path = Keyboarder/Source/KBarButton.swift; sourceTree = "<group>"; };
+		190509350F44D623A9EBA29C8F043180 /* Keyboarder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Keyboarder.modulemap; sourceTree = "<group>"; };
+		217A6BCD10B89C18AF0AE237F948A290 /* Pods_KeyboarderSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeyboarderSample.framework; path = "Pods-KeyboarderSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3E5D180DA6095A522689675A225A9B3E /* Keyboarder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Keyboarder.xcconfig; sourceTree = "<group>"; };
+		3E99040D8D39B6AA3FF091EDAEE85F85 /* Keyboarder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Keyboarder.framework; path = Keyboarder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		660D97CDA32233365124105654E39E51 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Keyboarder/Source/Extensions.swift; sourceTree = "<group>"; };
+		77DC208CCD838F8C2C8349050A604D8B /* KResources.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KResources.swift; path = Keyboarder/Source/KResources.swift; sourceTree = "<group>"; };
+		8885AE1B9A1A38C09B9543058F89F207 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		89391838E03ABC7AB560CA17FB01DA88 /* KAnimationsExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KAnimationsExt.swift; path = Keyboarder/Source/KAnimationsExt.swift; sourceTree = "<group>"; };
+		8AE91D504FFCDA31500152F98B3B0AB9 /* KToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KToolbar.swift; path = Keyboarder/Source/KToolbar.swift; sourceTree = "<group>"; };
+		8D6FEC3FC05CB273A35E382873DF5F06 /* KSwizzlings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KSwizzlings.swift; path = Keyboarder/Source/KSwizzlings.swift; sourceTree = "<group>"; };
+		994D1C0BF396617FD00889C3CF37698F /* KCalulator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCalulator.swift; path = Keyboarder/Source/KCalulator.swift; sourceTree = "<group>"; };
+		9CDDE2767522707FC0FA9375FD1BEA7F /* Keyboarder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keyboarder-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00AF1C3DA3E5F4053A4F7D74BED8D4D /* Keyboarder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Keyboarder-dummy.m"; sourceTree = "<group>"; };
+		A6B57B89E16722394203112B61965309 /* Pods-KeyboarderSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboarderSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA8E1E3BED5D75FDE2047DA5F21158A5 /* KTextInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KTextInput.swift; path = Keyboarder/Source/KTextInput.swift; sourceTree = "<group>"; };
+		C04BC4B371DF747FA36C65013A33EA6D /* Pods-KeyboarderSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboarderSample.debug.xcconfig"; sourceTree = "<group>"; };
+		C3253B9238F51B2708AA1C8210E39A11 /* Pods-KeyboarderSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboarderSample-Info.plist"; sourceTree = "<group>"; };
+		C7C0132773B4CA16BF6F8A5DC61E6C64 /* KScroller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KScroller.swift; path = Keyboarder/Source/KScroller.swift; sourceTree = "<group>"; };
+		DBCC01D1C94E6D5520E11420056FFC51 /* Pods-KeyboarderSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyboarderSample.modulemap"; sourceTree = "<group>"; };
+		E13DA9C606FF5128C242F375D881B521 /* Keyboarder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keyboarder.swift; path = Keyboarder/Source/Keyboarder.swift; sourceTree = "<group>"; };
+		E7C7B0DA43CFE610F15B749BD0E8F2E7 /* Keyboarder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Keyboarder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E9FF134BFF654F9D8C602C30BB351AF7 /* KNavigator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KNavigator.swift; path = Keyboarder/Source/KNavigator.swift; sourceTree = "<group>"; };
+		EBAE021F9DD32B4AC59634365ADE0A12 /* Pods-KeyboarderSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyboarderSample-umbrella.h"; sourceTree = "<group>"; };
+		FDACFE75BC3BFA4E152BF55FF1707702 /* KeyboarderExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboarderExt.swift; path = Keyboarder/Source/KeyboarderExt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		171B2B070433583A34C9B7435CA9C6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7FE317FDBBA3621A0E67FAEDC986BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDE570F06A49775000F8CC0F67F0392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F85F062A3F443DD5ACF72F1D6EEE05 /* Foundation.framework in Frameworks */,
+				4E53CB03A63742888593D255D8E06581 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029A7D36C07A6D7B3309F8D211B35E78 /* Keyboarder */ = {
+			isa = PBXGroup;
+			children = (
+				660D97CDA32233365124105654E39E51 /* Extensions.swift */,
+				89391838E03ABC7AB560CA17FB01DA88 /* KAnimationsExt.swift */,
+				165BBEB9CE68C0A04BE8A98C0796A78E /* KBarButton.swift */,
+				994D1C0BF396617FD00889C3CF37698F /* KCalulator.swift */,
+				E13DA9C606FF5128C242F375D881B521 /* Keyboarder.swift */,
+				FDACFE75BC3BFA4E152BF55FF1707702 /* KeyboarderExt.swift */,
+				E9FF134BFF654F9D8C602C30BB351AF7 /* KNavigator.swift */,
+				77DC208CCD838F8C2C8349050A604D8B /* KResources.swift */,
+				C7C0132773B4CA16BF6F8A5DC61E6C64 /* KScroller.swift */,
+				8D6FEC3FC05CB273A35E382873DF5F06 /* KSwizzlings.swift */,
+				AA8E1E3BED5D75FDE2047DA5F21158A5 /* KTextInput.swift */,
+				8AE91D504FFCDA31500152F98B3B0AB9 /* KToolbar.swift */,
+				498E94178E26D71B6DFC1894792DACE8 /* Pod */,
+				2AD7425956A66C4DCB559D0FB6FBEBAE /* Support Files */,
+			);
+			name = Keyboarder;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AD7425956A66C4DCB559D0FB6FBEBAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				190509350F44D623A9EBA29C8F043180 /* Keyboarder.modulemap */,
+				3E5D180DA6095A522689675A225A9B3E /* Keyboarder.xcconfig */,
+				A00AF1C3DA3E5F4053A4F7D74BED8D4D /* Keyboarder-dummy.m */,
+				06A0DB2DCC96BDE967D3CD6457F09B49 /* Keyboarder-Info.plist */,
+				9CDDE2767522707FC0FA9375FD1BEA7F /* Keyboarder-prefix.pch */,
+				0CAFB8745A43230E79634C3B2ADDDFE6 /* Keyboarder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "KeyboarderSample/Pods/Target Support Files/Keyboarder";
+			sourceTree = "<group>";
+		};
+		498E94178E26D71B6DFC1894792DACE8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7B0DA43CFE610F15B749BD0E8F2E7 /* Keyboarder.podspec */,
+				8885AE1B9A1A38C09B9543058F89F207 /* LICENSE */,
+				0D6FEC07F80DAB80A17A432B259979BD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7D7A033F200B1B15AEFA1468461997FB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				029A7D36C07A6D7B3309F8D211B35E78 /* Keyboarder */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		812BEB8E39BACF3765E91068CAC6CEE0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC048189058C001A0EFBF71ABDCDECB3 /* Pods-KeyboarderSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC048189058C001A0EFBF71ABDCDECB3 /* Pods-KeyboarderSample */ = {
+			isa = PBXGroup;
+			children = (
+				DBCC01D1C94E6D5520E11420056FFC51 /* Pods-KeyboarderSample.modulemap */,
+				1584B67D6BA70D9A5A3FEF5E43BD9147 /* Pods-KeyboarderSample-acknowledgements.markdown */,
+				A6B57B89E16722394203112B61965309 /* Pods-KeyboarderSample-acknowledgements.plist */,
+				13E121B0513ADE086A28BAF29B52C256 /* Pods-KeyboarderSample-dummy.m */,
+				03D35BE27E36AE14A38FD73A36264A04 /* Pods-KeyboarderSample-frameworks.sh */,
+				C3253B9238F51B2708AA1C8210E39A11 /* Pods-KeyboarderSample-Info.plist */,
+				EBAE021F9DD32B4AC59634365ADE0A12 /* Pods-KeyboarderSample-umbrella.h */,
+				C04BC4B371DF747FA36C65013A33EA6D /* Pods-KeyboarderSample.debug.xcconfig */,
+				0441DFB9EAD5C7E69BE59FCC570456D5 /* Pods-KeyboarderSample.release.xcconfig */,
+			);
+			name = "Pods-KeyboarderSample";
+			path = "Target Support Files/Pods-KeyboarderSample";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7D7A033F200B1B15AEFA1468461997FB /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				EDDBD882EAF09064169F0C1BDB04C95F /* Products */,
+				812BEB8E39BACF3765E91068CAC6CEE0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDDBD882EAF09064169F0C1BDB04C95F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E99040D8D39B6AA3FF091EDAEE85F85 /* Keyboarder.framework */,
+				217A6BCD10B89C18AF0AE237F948A290 /* Pods_KeyboarderSample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FA81F157FDB964D891989F436C2064A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5E93E82BE35CBC7D94463319DD39C5 /* Keyboarder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8273C0B2AE7A17F43814F9B1435E1ECD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB82D69349BABF2FA0B79C295AC9CB42 /* Pods-KeyboarderSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B4043CCC09C427C308ED8555C964DB8 /* Keyboarder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FAD1ED59184DDE40F18CB0EA25FDFB6 /* Build configuration list for PBXNativeTarget "Keyboarder" */;
+			buildPhases = (
+				2FA81F157FDB964D891989F436C2064A /* Headers */,
+				9B87A2091933DB6D5F63057122538465 /* Sources */,
+				6CDE570F06A49775000F8CC0F67F0392 /* Frameworks */,
+				DAC7D9863320131FE61F70922DCA7427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keyboarder;
+			productName = Keyboarder;
+			productReference = 3E99040D8D39B6AA3FF091EDAEE85F85 /* Keyboarder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41CC38BB17F19528F064362714142F06 /* Pods-KeyboarderSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B379B771CB0DE7C7E7664574D39C99 /* Build configuration list for PBXNativeTarget "Pods-KeyboarderSample" */;
+			buildPhases = (
+				8273C0B2AE7A17F43814F9B1435E1ECD /* Headers */,
+				3A91DF708BF26452E88FD7074C0A7B3E /* Sources */,
+				171B2B070433583A34C9B7435CA9C6FB /* Frameworks */,
+				21641A9EFCF51187894F253FADCE5946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54CC57B35247B19BAA92534BA3511C14 /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyboarderSample";
+			productName = "Pods-KeyboarderSample";
+			productReference = 217A6BCD10B89C18AF0AE237F948A290 /* Pods_KeyboarderSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EDDBD882EAF09064169F0C1BDB04C95F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B4043CCC09C427C308ED8555C964DB8 /* Keyboarder */,
+				41CC38BB17F19528F064362714142F06 /* Pods-KeyboarderSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21641A9EFCF51187894F253FADCE5946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC7D9863320131FE61F70922DCA7427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A91DF708BF26452E88FD7074C0A7B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D51EC0DEDFC55FF76C65847BC5FDAC /* Pods-KeyboarderSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B87A2091933DB6D5F63057122538465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157C21B12F505688435D967472DC009C /* Extensions.swift in Sources */,
+				0BA7877AD73FC533771E689774B347CE /* KAnimationsExt.swift in Sources */,
+				A99BE884B114DABB5D535375D4F5E35F /* KBarButton.swift in Sources */,
+				E5558C2CE7BE1EDA12D52008D67F5436 /* KCalulator.swift in Sources */,
+				192BAD4906FC72ECDBBF9D4557F3EC46 /* Keyboarder-dummy.m in Sources */,
+				01C39CCF257D159E782F859F0EE621BC /* Keyboarder.swift in Sources */,
+				5BAE09CC682E2187FE904ADBD98BE3E4 /* KeyboarderExt.swift in Sources */,
+				72352C54209ACF6AF80359CD6AF48AB5 /* KNavigator.swift in Sources */,
+				DF004C7F89CAD3EED9D3000C6DAF584F /* KResources.swift in Sources */,
+				C8407BF36EF5BA9E5B6E7ECE77C53E9B /* KScroller.swift in Sources */,
+				798B25EA1C65B903C1C2A60AEE0BA71D /* KSwizzlings.swift in Sources */,
+				98EAA67AECEB28530694F56E3C9222E6 /* KTextInput.swift in Sources */,
+				A7A604A5AD6EC8758C09D355E94E9F6C /* KToolbar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54CC57B35247B19BAA92534BA3511C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Keyboarder;
+			target = 3B4043CCC09C427C308ED8555C964DB8 /* Keyboarder */;
+			targetProxy = EDD4D776C09CB1B5757A081A5395C037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2002885FF2AAF233038529DCE73A16D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E5D180DA6095A522689675A225A9B3E /* Keyboarder.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Keyboarder/Keyboarder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Keyboarder/Keyboarder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Keyboarder/Keyboarder.modulemap";
+				PRODUCT_MODULE_NAME = Keyboarder;
+				PRODUCT_NAME = Keyboarder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44FCB5FFBCA27EDAB317829F86E7B6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04BC4B371DF747FA36C65013A33EA6D /* Pods-KeyboarderSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboarderSample/Pods-KeyboarderSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboarderSample/Pods-KeyboarderSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF669B116E9D069139309567E79C64AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E5D180DA6095A522689675A225A9B3E /* Keyboarder.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Keyboarder/Keyboarder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Keyboarder/Keyboarder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Keyboarder/Keyboarder.modulemap";
+				PRODUCT_MODULE_NAME = Keyboarder;
+				PRODUCT_NAME = Keyboarder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0878608E022F420F38C16EA2D06C22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0441DFB9EAD5C7E69BE59FCC570456D5 /* Pods-KeyboarderSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboarderSample/Pods-KeyboarderSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboarderSample/Pods-KeyboarderSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B379B771CB0DE7C7E7664574D39C99 /* Build configuration list for PBXNativeTarget "Pods-KeyboarderSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FCB5FFBCA27EDAB317829F86E7B6F1 /* Debug */,
+				D0878608E022F420F38C16EA2D06C22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FAD1ED59184DDE40F18CB0EA25FDFB6 /* Build configuration list for PBXNativeTarget "Keyboarder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF669B116E9D069139309567E79C64AB /* Debug */,
+				2002885FF2AAF233038529DCE73A16D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

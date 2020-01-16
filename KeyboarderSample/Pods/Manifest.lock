@@ -1,0 +1,16 @@
+PODS:
+  - Keyboarder (0.0.2)
+
+DEPENDENCIES:
+  - Keyboarder (from `..`)
+
+EXTERNAL SOURCES:
+  Keyboarder:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  Keyboarder: 50708851b64430bff4885880147fc24508e9faac
+
+PODFILE CHECKSUM: 1872e96b1455ebf52c8631286026fa8f78cb4f1c
+
+COCOAPODS: 1.8.4
