@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Keyboarder
+//import Keyboarder
 
 
 class ViewController: UIViewController {
@@ -15,12 +15,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Keyboarder.shared.didHide { (keyboardHeight) in
-            //TODO: dance
-        }
-        Keyboarder.shared.toolbarDoneBtnAction {
-            print("actionnn")
-        }
+//        Keyboarder.shared.didHide { (keyboardHeight) in
+//            //TODO: dance
+//        }
+//        Keyboarder.shared.toolbarDoneBtnAction {
+//            print("actionnn")
+//        }
     }
 
 
