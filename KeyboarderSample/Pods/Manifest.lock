@@ -1,3 +1,17 @@
-PODFILE CHECKSUM: 9a020078fa85bfb8242a22071366e61bf33de944
+PODS:
+  - Keyboarder (0.0.3)
+
+DEPENDENCIES:
+  - Keyboarder
+  - Keyboarder (~> 0.0)
+
+SPEC REPOS:
+  trunk:
+    - Keyboarder
+
+SPEC CHECKSUMS:
+  Keyboarder: 8cd02dd97be08ff2c344c147ef3cf3029cac09b1
+
+PODFILE CHECKSUM: bd5daffc390efe69abf15d407ca031a74d02f1a1
 
 COCOAPODS: 1.8.4

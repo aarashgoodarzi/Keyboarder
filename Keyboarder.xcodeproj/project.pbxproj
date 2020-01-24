@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7D0B259AECB3445BFA045E1 /* Pods_Keyboarder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C198D8D40A725C87CD2DF9 /* Pods_Keyboarder.framework */; };
+		D117AE8A5AB13D652DAFD55C /* Pods_Keyboarder_KeyboarderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634EB0ED11EE661E5453370F /* Pods_Keyboarder_KeyboarderTests.framework */; };
 		EF8438A523D1051500B42BDF /* Keyboarder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF84389B23D1051500B42BDF /* Keyboarder.framework */; };
 		EF8438AA23D1051600B42BDF /* KeyboarderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8438A923D1051600B42BDF /* KeyboarderTests.swift */; };
 		EF8438AC23D1051600B42BDF /* Keyboarder.h in Headers */ = {isa = PBXBuildFile; fileRef = EF84389E23D1051500B42BDF /* Keyboarder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17E97B1044E308B8B648DF93 /* Pods-Keyboarder-KeyboarderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboarder-KeyboarderTests.release.xcconfig"; path = "Target Support Files/Pods-Keyboarder-KeyboarderTests/Pods-Keyboarder-KeyboarderTests.release.xcconfig"; sourceTree = "<group>"; };
+		5233523921DE20379B98FE80 /* Pods-Keyboarder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboarder.debug.xcconfig"; path = "Target Support Files/Pods-Keyboarder/Pods-Keyboarder.debug.xcconfig"; sourceTree = "<group>"; };
+		634EB0ED11EE661E5453370F /* Pods_Keyboarder_KeyboarderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keyboarder_KeyboarderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC86B1586E6686235FF379B7 /* Pods-Keyboarder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboarder.release.xcconfig"; path = "Target Support Files/Pods-Keyboarder/Pods-Keyboarder.release.xcconfig"; sourceTree = "<group>"; };
 		EF84389B23D1051500B42BDF /* Keyboarder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keyboarder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF84389E23D1051500B42BDF /* Keyboarder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Keyboarder.h; sourceTree = "<group>"; };
 		EF84389F23D1051500B42BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +59,8 @@
 		EF8438BF23D105B200B42BDF /* KCalulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCalulator.swift; sourceTree = "<group>"; };
 		EF8438C023D105B200B42BDF /* KNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNavigator.swift; sourceTree = "<group>"; };
 		EF8438C123D105B200B42BDF /* KAnimationsExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KAnimationsExt.swift; sourceTree = "<group>"; };
+		F0C198D8D40A725C87CD2DF9 /* Pods_Keyboarder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keyboarder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCE628C87C41176144EB566 /* Pods-Keyboarder-KeyboarderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboarder-KeyboarderTests.debug.xcconfig"; path = "Target Support Files/Pods-Keyboarder-KeyboarderTests/Pods-Keyboarder-KeyboarderTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D0B259AECB3445BFA045E1 /* Pods_Keyboarder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,18 +77,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8438A523D1051500B42BDF /* Keyboarder.framework in Frameworks */,
+				D117AE8A5AB13D652DAFD55C /* Pods_Keyboarder_KeyboarderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		317C8088AD9FFF6ECEA72E71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C198D8D40A725C87CD2DF9 /* Pods_Keyboarder.framework */,
+				634EB0ED11EE661E5453370F /* Pods_Keyboarder_KeyboarderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3583D820BECB33B71AC88318 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5233523921DE20379B98FE80 /* Pods-Keyboarder.debug.xcconfig */,
+				BC86B1586E6686235FF379B7 /* Pods-Keyboarder.release.xcconfig */,
+				FFCE628C87C41176144EB566 /* Pods-Keyboarder-KeyboarderTests.debug.xcconfig */,
+				17E97B1044E308B8B648DF93 /* Pods-Keyboarder-KeyboarderTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EF84389123D1051500B42BDF = {
 			isa = PBXGroup;
 			children = (
 				EF84389D23D1051500B42BDF /* Keyboarder */,
 				EF8438A823D1051500B42BDF /* KeyboarderTests */,
 				EF84389C23D1051500B42BDF /* Products */,
+				3583D820BECB33B71AC88318 /* Pods */,
+				317C8088AD9FFF6ECEA72E71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF8438AF23D1051600B42BDF /* Build configuration list for PBXNativeTarget "Keyboarder" */;
 			buildPhases = (
+				EF51EA755D71F40ABA6B4192 /* [CP] Check Pods Manifest.lock */,
 				EF84389623D1051500B42BDF /* Headers */,
 				EF84389723D1051500B42BDF /* Sources */,
 				EF84389823D1051500B42BDF /* Frameworks */,
@@ -174,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF8438B223D1051600B42BDF /* Build configuration list for PBXNativeTarget "KeyboarderTests" */;
 			buildPhases = (
+				4EBCFF8F8032E32E36800A33 /* [CP] Check Pods Manifest.lock */,
 				EF8438A023D1051500B42BDF /* Sources */,
 				EF8438A123D1051500B42BDF /* Frameworks */,
 				EF8438A223D1051500B42BDF /* Resources */,
@@ -241,6 +276,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EBCFF8F8032E32E36800A33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Keyboarder-KeyboarderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF51EA755D71F40ABA6B4192 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Keyboarder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF84389723D1051500B42BDF /* Sources */ = {
@@ -403,6 +485,7 @@
 		};
 		EF8438B023D1051600B42BDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5233523921DE20379B98FE80 /* Pods-Keyboarder.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -429,6 +512,7 @@
 		};
 		EF8438B123D1051600B42BDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC86B1586E6686235FF379B7 /* Pods-Keyboarder.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -455,6 +539,7 @@
 		};
 		EF8438B323D1051600B42BDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFCE628C87C41176144EB566 /* Pods-Keyboarder-KeyboarderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +559,7 @@
 		};
 		EF8438B423D1051600B42BDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E97B1044E308B8B648DF93 /* Pods-Keyboarder-KeyboarderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
