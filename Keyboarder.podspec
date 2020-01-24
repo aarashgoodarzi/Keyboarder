@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "Keyboarder"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Handy Keyboard handling in swift"
   spec.description  = "Keyboard handling with many features by just a line of code!"
   spec.homepage     = "https://github.com/aarashgoodarzi/Keyboarder"
