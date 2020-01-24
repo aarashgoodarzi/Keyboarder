@@ -1,6 +1,0 @@
-framework module Pods_KeyboarderSample {
-  umbrella header "Pods-KeyboarderSample-umbrella.h"
-
-  export *
-  module * { export * }
-}
