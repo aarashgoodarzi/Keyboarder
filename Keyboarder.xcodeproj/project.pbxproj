@@ -24,6 +24,7 @@
 		EF8438CB23D105B300B42BDF /* KCalulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8438BF23D105B200B42BDF /* KCalulator.swift */; };
 		EF8438CC23D105B300B42BDF /* KNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8438C023D105B200B42BDF /* KNavigator.swift */; };
 		EF8438CD23D105B300B42BDF /* KAnimationsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8438C123D105B200B42BDF /* KAnimationsExt.swift */; };
+		EFD4787123DEFEA800A0F33B /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4787023DEFEA800A0F33B /* Atomic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		EF8438BF23D105B200B42BDF /* KCalulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCalulator.swift; sourceTree = "<group>"; };
 		EF8438C023D105B200B42BDF /* KNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNavigator.swift; sourceTree = "<group>"; };
 		EF8438C123D105B200B42BDF /* KAnimationsExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KAnimationsExt.swift; sourceTree = "<group>"; };
+		EFD4787023DEFEA800A0F33B /* Atomic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
 		F0C198D8D40A725C87CD2DF9 /* Pods_Keyboarder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keyboarder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCE628C87C41176144EB566 /* Pods-Keyboarder-KeyboarderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboarder-KeyboarderTests.debug.xcconfig"; path = "Target Support Files/Pods-Keyboarder-KeyboarderTests/Pods-Keyboarder-KeyboarderTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +103,6 @@
 				FFCE628C87C41176144EB566 /* Pods-Keyboarder-KeyboarderTests.debug.xcconfig */,
 				17E97B1044E308B8B648DF93 /* Pods-Keyboarder-KeyboarderTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -159,6 +160,7 @@
 				EF8438BF23D105B200B42BDF /* KCalulator.swift */,
 				EF8438C023D105B200B42BDF /* KNavigator.swift */,
 				EF8438C123D105B200B42BDF /* KAnimationsExt.swift */,
+				EFD4787023DEFEA800A0F33B /* Atomic.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -333,6 +335,7 @@
 				EF8438C223D105B200B42BDF /* KeyboarderExt.swift in Sources */,
 				EF8438C423D105B300B42BDF /* KBarButton.swift in Sources */,
 				EF8438C923D105B300B42BDF /* KSwizzlings.swift in Sources */,
+				EFD4787123DEFEA800A0F33B /* Atomic.swift in Sources */,
 				EF8438CA23D105B300B42BDF /* KResources.swift in Sources */,
 				EF8438C323D105B300B42BDF /* KScroller.swift in Sources */,
 				EF8438CC23D105B300B42BDF /* KNavigator.swift in Sources */,

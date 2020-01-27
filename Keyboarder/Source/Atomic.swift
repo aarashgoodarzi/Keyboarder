@@ -25,10 +25,9 @@ final class Atomic<T> {
             }
         }
         
-        set (value) {
+        set {
             queue.sync {
-                _value = value
-                
+                _value = newValue
             }
         }
     }

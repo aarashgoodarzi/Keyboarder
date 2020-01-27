@@ -12,40 +12,18 @@ open class Keyboarder: KeyboarderProtocol {
     
     
     //MARK: - Vars
-    public static var shared = Keyboarder()
+    static var shared = Keyboarder()
     private var _isEnabled: Atomic<Bool> = Atomic(false)
-    
-    open var isEnabled: Bool {
+    private var _isToolbarEnabled: Atomic<Bool> = Atomic(true)
+    public static var isEnabled: Bool {
         get {
-            return self._isEnabled.value
-        }
-        
-        set {
-            _isEnabled.didSetValue = {
-                self.initilize()
-                self.setup()
-            }
-            
-            _isEnabled.value = newValue
-            
+            return shared._isEnabled.value
         }
     }
     
-    private var _isToolbarEnabled: Atomic<Bool> = Atomic(false) {
-        didSet {
-            if !_isToolbarEnabled.value {
-                self.toolBar = nil
-            }
-        }
-    }
-    
-    open var isToolbarEnabled: Bool  {
+    public static var isToolbarEnabled: Bool  {
         get {
-            return self._isToolbarEnabled.value
-        }
-        
-        set {
-            self._isToolbarEnabled.value = newValue
+            return shared._isToolbarEnabled.value
         }
     }
     
@@ -57,15 +35,15 @@ open class Keyboarder: KeyboarderProtocol {
     
     var activeTextInput: KTextInput? {
         get {
-            return self._activeTextInput?.value
+            return _activeTextInput?.value
         }
         
         set {
             guard let newValue = newValue else {
-                self._activeTextInput = nil
+                _activeTextInput = nil
                 return
             }
-            self._activeTextInput?.value = newValue
+            _activeTextInput?.value = newValue
         }
     }
     
@@ -82,6 +60,7 @@ open class Keyboarder: KeyboarderProtocol {
         
     }
     
+    //MARK: - Methods
     private func initilize() {
         let calculator = KCalcultor()
         let scroller = KScroller(viewController: delegate, calculator: calculator)
@@ -89,55 +68,82 @@ open class Keyboarder: KeyboarderProtocol {
         self.scroller = scroller
     }
     
+    public static func enable() {
+        shared._isEnabled.didSetValue = {
+            shared.initilize()
+            shared.setup()
+        }
+        
+        shared._isEnabled.value = true
+    }
+    
+    public static func disable() {
+        shared._isEnabled.value = false
+        
+    }
+    
+    public static func enableToolbar() {
+        shared._isToolbarEnabled.value = true
+    }
+    
+    public static func disableToolbar() {
+        shared._isToolbarEnabled.didSetValue = {
+            if !shared._isToolbarEnabled.value {
+                shared.toolBar = nil
+            }
+        }
+        shared._isToolbarEnabled.value = false
+    }
+    
     private func setToolbar(for textInput: KTextInput?) {
         
         guard let textInput = textInput else {
-            self.isToolbarEnabled = false
+            self._isToolbarEnabled.value = false
             return
         }
         let navigator = KNavigator()
-        navigator.set(isKHEnabled: isEnabled, viewController: delegate)
+        navigator.set(isKHEnabled: _isEnabled.value, viewController: delegate)
         let kToolbar = KToolbar(textInput: textInput, navigator: navigator)
         self.toolBar = kToolbar
     }
     
-    //MARK: - Methods
-    open func addIngnoredViews(views: [UIView]) {
+    
+    public static func addIngnoredViews(views: [UIView]) {
         let views = views.map { $0 }
-        toolBar?.navigator?.addIngnoredViews(views: views)
+        shared.toolBar?.navigator?.addIngnoredViews(views: views)
     }
     
-    open func addIngnoredView(view: UIView) {
-        toolBar?.navigator?.addIngnoredView(view: view)
+    public static func addIngnoredView(view: UIView) {
+        shared.toolBar?.navigator?.addIngnoredView(view: view)
     }
     
     //adding actin means user do not want auto scroll so just this section will be enabled
-    open func willShow(_ compeltion: @escaping (_ keyboardHieght: CGFloat) -> Void) {
-        willShowClosure = compeltion
+    public static func willShow(_ compeltion: @escaping (_ keyboardHieght: CGFloat) -> Void) {
+        shared.willShowClosure = compeltion
         UIViewController.deswizzleViewLifecycle()
     }
     
-    open func willHide(_ compeltion: @escaping (_ keyboardHieght: CGFloat) -> Void) {
-        willHideClosure = compeltion
+    public static func willHide(_ compeltion: @escaping (_ keyboardHieght: CGFloat) -> Void) {
+        shared.willHideClosure = compeltion
         UIViewController.deswizzleViewLifecycle()
     }
     
-    open func didShow(_ compeltion: @escaping (_ keyboardHieght: CGFloat) -> Void) {
-        didShowClosure = compeltion
+    public static func didShow(_ compeltion: @escaping (_ keyboardHieght: CGFloat) -> Void) {
+        shared.didShowClosure = compeltion
         UIViewController.deswizzleViewLifecycle()
     }
     
-    open func didHide(_ compeltion: @escaping (_ keyboardHieght: CGFloat) -> Void) {
-        didHideClosure = compeltion
+    public static func didHide(_ compeltion: @escaping (_ keyboardHieght: CGFloat) -> Void) {
+        shared.didHideClosure = compeltion
         UIViewController.deswizzleViewLifecycle()
     }
-    open func toolbarDoneBtnAction(_ compeltion: @escaping () -> Void) {
-        toolBar?.doneBtnClosure = compeltion
+    public static func toolbarDoneBtnAction(_ compeltion: @escaping () -> Void) {
+        shared.toolBar?.doneBtnClosure = compeltion
     }
     
     //**
     private func setup() {
-        guard isEnabled else {
+        guard _isEnabled.value else {
             UIViewController.deswizzleViewLifecycle()
             removeAllObeservers()
             return
@@ -160,7 +166,7 @@ open class Keyboarder: KeyboarderProtocol {
     //**
     private func addKeyboardObservers() {
         
-        guard isEnabled else {
+        guard _isEnabled.value else {
             return
         }
         
